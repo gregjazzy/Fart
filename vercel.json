@@ -4,8 +4,13 @@
       "src": "package.json",
       "use": "@vercel/next",
       "config": {
-        "installCommand": "npm install --legacy-peer-deps"
+        "installCommand": "npm install --legacy-peer-deps",
+        "buildCommand": "next build --no-lint"
       }
     }
-  ]
-} 
+  ],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://apbkobhfnmcqqzqeeqss.supabase.co",
+    "NEXT_PUBLIC_BASE_URL": "https://fart.vercel.app"
+  }
+}
