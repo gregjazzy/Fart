@@ -1,0 +1,1 @@
+Enregistrez vos 4 images PNG dans ce dossier avec les noms exacts : accueil.png, forum.png, dictionary-bg.png, foods.png

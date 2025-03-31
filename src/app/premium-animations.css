@@ -1,0 +1,33 @@
+@keyframes pulse-premium {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-premium {
+  animation: pulse-premium 3s infinite ease-in-out;
+}
+
+.pulse-premium-slow {
+  animation: pulse-premium 5s infinite ease-in-out;
+}
+
+/* Animation de scintillement pour le bouton CTA */
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) skewX(-30deg);
+  }
+  100% {
+    transform: translateX(200%) skewX(-30deg);
+  }
+}
+
+.animate-shine {
+  animation: shine 3s infinite;
+} 

@@ -9,19 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mistralai/mistralai": "^1.5.2",
+    "@stripe/stripe-js": "^6.1.0",
+    "@supabase/supabase-js": "^2.49.3",
+    "@types/js-cookie": "^3.0.6",
+    "@types/next": "^8.0.7",
+    "chart.js": "^4.4.8",
+    "dotenv": "^16.4.7",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.5",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^3.8.4",
+    "next": "^15.2.4",
     "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-icons": "^5.5.0",
+    "stripe": "^14.25.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/node": "^20.17.27",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
